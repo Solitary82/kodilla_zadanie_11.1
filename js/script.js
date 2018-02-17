@@ -7,7 +7,7 @@ function Phone(brand, price, color, stock, shippingCost) {
 }
 
 Phone.prototype.printInfo = function () {
-    console.log("The phone brand is " + this.brand + ", color is " + this.color + " , the price is " + this.price + " and there are " + this.stock + " pieces in stock. Shipping cost worldwide is " + this.shippingCost + " $.");
+    console.log("The phone brand is " + this.brand + ", color is " + this.color + ", the price is " + this.price + " and there are " + this.stock + " pieces in stock. Shipping cost worldwide is " + this.shippingCost + " $.");
 }
 
 var samsungGalaxyS6 = new Phone("Samsung", 1250, "gray", 60, 50);
